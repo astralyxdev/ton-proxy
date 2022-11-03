@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Astralyx TON Proxy",
+    "description": "TON Proxy extension for Chrome by Astralyx.dev",
+    "version": "1.0",
+  
+    "author": "Astralyx",
+
+    "background": {
+        "service_worker": "js/background.js",
+        "type": "module"
+    },
+
+    "action": {
+        "default_popup": "index.html"
+    },
+
+    "icons": {
+        "16": "img.png",
+        "32": "img.png",
+        "48": "img.png",
+        "128": "img.png"
+    },
+
+    "homepage_url": "https://astralyx.dev",
+    "permissions": ["proxy", "storage"],
+    "short_name": "Astrlayx TON Proxy"
+  }

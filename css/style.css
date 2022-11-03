@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 400px;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(111, 101, 154, 0.0288) 0%, rgba(73, 57, 137, 0.16) 100%), #16151A;;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    background: url(../assets/huinya.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container > .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 43px;
+}
+
+.container > .header > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: rgba(255, 255, 255, 0.4);
+margin-top: 32px;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        width: 168px;
+    }
+    100% {
+        transform: rotate(360deg);
+        width: 0px;
+    }
+}
+
+.rotate {
+    animation: rotate 1s linear infinite;
+}
+
+.imgBlock {
+    width: 168px;
+    height: 168px;
+}
